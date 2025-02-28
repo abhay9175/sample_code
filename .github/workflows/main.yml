@@ -4,10 +4,3 @@ on:
   push:
     branches:
       - main
-
-jobs:
-  deployment:
-    runs-on: ubuntu-latest
-    environment: dev
-    steps:
-      - name: deploy
