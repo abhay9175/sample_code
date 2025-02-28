@@ -11,6 +11,7 @@ jobs:
           HOST: ${{ secrets.EC2_HOST }}
           USER: ${{ secrets.EC2_USER }}
         run: |
+          #Restart Nginx
           sudo systemctl restart nginx
           
          
